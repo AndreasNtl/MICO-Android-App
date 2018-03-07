@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ClientProject</string>
+    <string name="Music">Music</string>
+    <string name="Save">Save</string>
+    <string name="Flash">Flash</string>
+    <string name="Ip_TextView">Ip_TextView</string>
+    <string name="Ip_Address">Ip_Address</string>
+    <string name="Port">Port</string>
+    <string name="Connecting">Connecting</string>
+    <string name="Frequency">Frequency</string>
+    <string name="IP_Address">IP Address</string>
+    <string name="manual">manual</string>
+    <string name="auto">auto</string>
+    <string name="unsubscribe">unsubscribe</string>
+    <string name="subscribe">subscribe</string>
+</resources>

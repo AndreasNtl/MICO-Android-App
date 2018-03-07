@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.christos.clientproject.ConfigurationActivity">
+
+    <TextView
+        android:id="@+id/Settings_Ip_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/IP_Address"
+        app:layout_constraintBottom_toTopOf="@+id/Setting_Ip_Value"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.843" />
+
+    <EditText
+        android:id="@+id/Setting_Ip_Value"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:layout_marginBottom="402dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:inputType="text"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/Setting_Port_Value"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="48dp"
+        android:background="@color/colorPrimaryDark"
+        android:inputType="text"
+        android:textColor="@color/colorAccent"
+
+        app:layout_constraintTop_toBottomOf="@+id/Setting_Ip_Value" />
+
+    <TextView
+        android:id="@+id/port_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Port"
+        app:layout_constraintBottom_toTopOf="@+id/Setting_Port_Value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Setting_Ip_Value"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="2dp" />
+
+    <Button
+        android:id="@+id/settingsSave_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="82dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="195dp"
+        android:text="@string/Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Setting_Port_Value"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="256dp" />
+
+</android.support.constraint.ConstraintLayout>
